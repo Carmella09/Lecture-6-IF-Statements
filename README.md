@@ -1,4 +1,4 @@
-# L6-Codes
+# LEC-6-Codes
 
 It's my Birthday
 
