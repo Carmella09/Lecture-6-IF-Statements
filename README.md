@@ -40,7 +40,37 @@ It's my Birthday
    
    Extension Problem (Optional)
    
-   
+         #include<iostream>
+      using namespace std;
+      int main()
+      {
+            cout << "Enter the time (24 hour cycle): " << endl;
+
+            double currenTime;
+            cin >> currenTime;
+
+            if (currenTime < 12)
+            {
+                  cout << "Good Morning";
+            }
+            else if (currenTime >= 12 && currenTime < 18)
+            {
+                  cout << "Good Afternoon";
+            }
+            else if (currenTime >= 18 && currenTime < 21)
+            {
+                  cout << "Good Evening";
+            }
+            else if (currenTime >= 21 && currenTime < 24)
+            {
+                  cout << "Good Night";
+            }
+            else
+            {
+                  cout << "Time not Valid";
+            }
+      }
+
    
    Can I vote?
    
@@ -112,30 +142,37 @@ It's my Birthday
       
       
      
- profit or loss (need to be fixed)
+ profit or loss 
 
       #include <iostream>
       using namespace std;
       int main()
       {
-          int Profit, Loss, Purchase, Sale;
-          cout << "Enter the Purchase Price: \n" << endl;
-          cin >> Purchase;
-          cout << "Enter the Sale: \n" << endl;
-          cin >> Sale;
+          int profit;
+          int purchase;
+          int sale;
 
-          if (Profit = Purchase - Sale  ) {
-              cout << " AED " << Profit << endl;
+          cout << "Enter the Purchase Price: " << endl;
+          cin >> purchase;
+          cout << "Enter the Sale Price: " << endl;
+          cin >> sale;
+
+          profit = sale - purchase;
+
+          if (profit > 0) {
+              cout << "Your profit is " << profit << " AED" << endl;
           }
-          if (Loss = Sale - Purchase) {
-              cout << " AED " << Loss << endl;
+          else if (profit < 0) 
+          {
+              cout << "Your loss is " << profit << " AED" << endl;
           }
           else {
-              cout << " none " << endl;
+              cout << " Invalid Output " << endl;
           }
           cin.get();
           return 0;
       }
+
 
       
    Name That Shape
