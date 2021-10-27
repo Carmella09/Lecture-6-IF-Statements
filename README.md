@@ -162,9 +162,13 @@ It's my Birthday
           if (profit > 0) {
               cout << "Your profit is " << profit << " AED" << endl;
           }
-          else if (profit < 0) 
+          else if (profit < 0)
           {
               cout << "Your loss is " << profit << " AED" << endl;
+          }
+          else if (profit == 0)
+          {
+              cout << "No loss or profit" << endl;
           }
           else {
               cout << " Invalid Output " << endl;
