@@ -206,7 +206,7 @@ It's my Birthday
           else if (Shape == 8) {
               cout << Shape << " is a octagon " << endl;
           }
-          if (Shape == 9) {
+          else if (Shape == 9) {
               cout << Shape << " is a nonagon " << endl;
           }
           else if (Shape == 10) {
