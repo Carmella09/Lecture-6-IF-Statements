@@ -1,4 +1,6 @@
-# LEC-6-Codes
+# LEC-6-EXERCISES
+
+//EXERCISES
 
 It's my Birthday
 
@@ -92,7 +94,7 @@ It's my Birthday
          return 0;
       }
 
-// Homeworks/Assingment (fixed Version)
+//HOMEWORK/ASSIGNMENTS (fixed Version)
 
    even ODD
 
